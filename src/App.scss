@@ -1,0 +1,46 @@
+body {
+  background-color: #F4F6F9;
+  font-family: Roboto;
+  font-style: normal;
+  color: #000000;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  h1 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+  }
+}
+
+.Exchange-rates-box {
+  margin: 0 auto;
+  width: 292px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  ul {
+    list-style-type: none;
+    text-align: left;
+    padding-inline-start: 0;
+    padding: 10px;
+  }
+  li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  .Rate {
+    float: right;
+  }
+}
+
